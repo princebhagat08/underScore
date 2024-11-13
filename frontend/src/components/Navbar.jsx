@@ -21,7 +21,7 @@ const Navbar = () => {
                 {/* Desktop Links */}
                 <ul className="hidden md:flex items-center gap-8 font-medium">
                     <NavLink to="/" className="hover:text-primary">
-                        <li className="py-1">HOME page</li>
+                        <li className="py-1">HOME pages-</li>
                     </NavLink>
                     <NavLink to="/allalumni" className="hover:text-primary">
                         <li className="py-1">ALL ALUMNI</li>
