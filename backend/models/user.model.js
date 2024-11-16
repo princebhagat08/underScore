@@ -19,6 +19,9 @@ const userSchema = new mongoose.Schema({
     enum: ["student", "alumni", "faculty", "admin", "guest"],
     default: "student",
   },
+  mobile: {
+    type: String,
+  },
 });
 
 userSchema.virtual('avatar').get(function() {

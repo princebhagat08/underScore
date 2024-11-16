@@ -10,6 +10,7 @@ import AlumniProfile from './pages/AlumniProfile'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Donation from './pages/DonationPage';
+import MyAlumniProfile from './pages/profile/page';
 function App() {
   
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/alumni/:alumniId' element ={<AlumniProfile/>}/>
         <Route path='/my-profile' element={<MyProfile/>}/>
         <Route path='/donate' element={<Donation/>}/>
+        <Route path='/profile' element={<MyAlumniProfile/>}/>
 
       </Routes>
       <Footer/>
